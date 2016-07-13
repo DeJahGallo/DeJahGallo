@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
       <title>De'Jah's Amazing Website</title>
       <style>
             body {
@@ -20,6 +21,8 @@
 
             /* navigation menu */
             nav {
+                border-radius: 15px;
+                border: 2px solid #FFFFFF;
                 background: rgb(239, 80, 41);
                 margin: 0 auto;
                 display: flex;
@@ -45,6 +48,9 @@
 
             /* main container area beneath menu */
             main {
+                margin-top: 10px;
+                border-radius: 25px;
+                border: 2px solid #FFFFFF;
                 background: rgb(245, 238, 219);
                 display: flex;
             }
@@ -62,6 +68,10 @@
             [class=interests] header {
                 font-size: 1.25em;
             }
+            .funky {
+              font-size: 1.3em;
+              font-family: 'Covered By Your Grace', cursive;
+            }
         </style>
     </head>
 
@@ -73,21 +83,20 @@
            <ul>
              <li><a href="index.html">Home</a></li>
              <li><a href="portfolio.html">Portfolio</a></li>
-
            </ul>
          </nav>
 
          <main>
            <div class="sidebar">
-              <img src="https://mail.google.com/mail/u/0/?ui=2&ik=0c16390521&view=att&th=155e5023a1d6e9ec&attid=0.1&disp=safe&zw" width="200">
+              <img src="dejah.jpg" width="200">
            </div>
 
-           <div class="contents">
+           <div class="content">
              <header>De'Jah</header>
-             <p>I'm a student at Jackson State University</p>
+             <p class="funky">I'm a student at Jackson State University</p>
              <section class="interests">
                <header>Interests</header>
-               <ul>
+               <ul class="funky">
                  <li>Food</li>
                  <li>Music</li>
                  <li>Family</li>
